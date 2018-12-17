@@ -1,0 +1,19 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+int r;
+int phi=3.14,luas;
+printf("PROGRAM MENGHITUNG LUAS LINGKARAN\n");
+printf("=================================\n");
+printf("INSTITUT PELITA BANGSA. TEKNIK INFORMATIKA\n\n");
+
+cout<<"masukan jari jari lingkaran:";
+cin>>r;
+
+luas=phi*r*r;
+cout<<"luas lingkaran adalah "<<luas;
+return 0;
+
+}
